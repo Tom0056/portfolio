@@ -1,0 +1,62 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 50%;
+  border: solid white 1px;
+}
+.skills {
+  width: 100%;
+  height: 15px;
+}
+.html {
+  background-color: rgb(247, 119, 73);
+  animation: animation1 4s ease-in-out forwards;
+}
+.css {
+  background-color: rgb(57, 57, 218);
+  animation: animation2 4s ease-in-out forwards;
+}
+.php {
+  background-color: violet;
+  animation: animation3 4s ease-in-out forwards;
+}
+.js {
+  background-color: rgb(153, 153, 6);
+  animation: animation4 4s ease-in-out forwards;
+}
+/* ANIMATION */
+
+@keyframes animation1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes animation2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes animation3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes animation4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
